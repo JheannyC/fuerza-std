@@ -4,8 +4,7 @@ const url = process.env.URL
 
 module.exports = defineConfig({
     env:{
-        ...process.env,
-        url
+        ...process.env
     },
     e2e: {
         baseUrl: url,
