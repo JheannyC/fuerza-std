@@ -1,6 +1,6 @@
 
 import login from "../pages/login"
-import { element } from "../../pages/login/elements"
+import { element } from "../pages/login/elements"
 
 Cypress.Commands.add('login', (username, password) => {
     cy.session([username, password], () => {

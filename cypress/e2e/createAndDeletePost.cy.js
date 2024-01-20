@@ -1,6 +1,5 @@
-import login from "../../pages/login"
-import post from "../../pages/post"
-
+import login from "../pages/login"
+import post from "../pages/post"
 import { fill } from "../support/general/data"
 
 describe('Create and delete post', () => {

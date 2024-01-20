@@ -1,12 +1,14 @@
 const { defineConfig } = require('cypress')
 require('dotenv').config()
+const url = process.env.URL
 
 module.exports = defineConfig({
     env:{
         ...process.env,
+        url
     },
     e2e: {
-        baseUrl: `${Cypress.env('URL')}`,
+        baseUrl: url,
         viewportWidth: 1024,
         viewportHeight: 768,
     },

@@ -1,4 +1,4 @@
-import { fill } from "../../cypress/support/general/data"
+import { fill } from "../../support/general/data"
 import { element } from "./elements"
 
 class Post {
