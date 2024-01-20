@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "dotenv-cli": "^7.3.0",
+    "faker-br": "^0.4.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run cypress/e2e/**.js"
+  }
+}
